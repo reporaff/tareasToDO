@@ -3,6 +3,7 @@ from flask import Flask, request, jsonify, render_template, redirect, url_for, a
 app = Flask(__name__)
 
 # Configuración flash
+
 app.secret_key = 'supersecretkey'
 
 # Lista de tareas simulada
